@@ -169,7 +169,7 @@ git clone https://scm.liongate.cloud:443/scm/repo/otelo/lava-api-portal LavaApiP
 
 once you have cloned `LavaApiPortal` you can use the `tools/doInAllLavaGitDirs.sh` helper script inside it<br/>
 a) to get all other necessary git repos cloned
-b) set up [environment variables](#lavaapiportal/.env) necessary for the setup
+b) set up [environment variables](#lavaapiportal-environment-variables) necessary for the setup
 c) to operate on all or certain repos using just one command (use `/var/www/lavasuite/LavaApiPortal/tools/doInAllLavaGitDirs.sh` to see all available commands)
 
 So to get alle necessary git repos and update them to the latest version, use<br/>
@@ -1178,7 +1178,7 @@ $app->register(\App\Providers\Saml2ServiceProvider::class); // Provider class to
 $app->register(App\Providers\EventServiceProvider::class); // Event provider to register the SAML Events
 ```
 
-## LavaApiPortal/.env
+## LavaApiPortal Environment Variables
 
 Edit/Create `.env` file in `LavaApiAportal` project
 

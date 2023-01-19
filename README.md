@@ -169,7 +169,7 @@ git clone https://scm.liongate.cloud:443/scm/repo/otelo/lava-api-portal LavaApiP
 
 once you have cloned `LavaApiPortal` you can use the `tools/doInAllLavaGitDirs.sh` helper script inside it<br/>
 a) to get all other necessary git repos cloned
-b) set up [environment variables](#lavaapiportal-environment-variables) necessary for the setup
+b) set up [LavaApiPortal environment variables](#lavaapiportal-environment-variables)
 c) to operate on all or certain repos using just one command (use `/var/www/lavasuite/LavaApiPortal/tools/doInAllLavaGitDirs.sh` to see all available commands)
 
 So to get alle necessary git repos and update them to the latest version, use<br/>
